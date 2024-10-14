@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Class</title>
+</head>
+<style>
+    div{
+        display:inline-block;
+        background-color: lightgray;
+        border: 2px solid black;
+        border-radius: 15px;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        align-content: space-around;
+        
+    }
+div > p{
+    display: none;
+    border-radius: 80px;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    color: #ffffff;
+}
+
+div:hover >p{
+    display: block;
+}
+
+    div:hover{
+        background-color: yellow;
+        
+    }
+</style>
+<body>
+    <div>
+        01
+        <p>Toque aqui</p>
+    </div>
+    <div>
+        02
+        <p>Passa para o lado >></p>
+    </div>
+    <div>
+        03
+        <p>Agora chupa meu pau .|.</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #666363;
+            margin: 0px;
+
+        }
+        header{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            
+            box-shadow: 3px 6px 7px #666363;
+            margin: 40px 500px 10px 3px;
+            border: 5px solid black;
+            border-radius: 10px;
+            
+
+            
+        }
+        h2{
+            color: green;
+        }
+        h3{
+            color: red;
+        }
+        .para-art{
+            color: black;
+            font-weight: bold;
+        }
+
+        nav{
+            background-color: #666363;
+            padding: 3px;
+            box-shadow: 3px 5px 7px #666363;
+        }
+        nav > a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 4px 1px 7px #222121;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: #837e7e;
+        } 
+        .box-2{
+            margin: 10px 0px 10px 0px;
+        }
+
+        footer{
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Esportes</a>
+            <a href="#">politíca</a>
+            <a href="#">Tecnologia</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Contra o Vasco, Abel Ferreira tem baixa inesperada e importante no Palmeiras</h2>
+                <h3>Baixa inesperada no adversário </h3>
+                <p>Após empatar por 1 a 1 com o Flamengo, o Vasco da Gama se prepara para encarar o Palmeiras, no domingo (22), às 16h, no Mané Garrincha, em Brasília, com o mando de campo carioca.
+
+                    De olho em como o adversário chega, veio uma novidade diretamente da Academia de Futebol, o CT do Palmeiras. Um dos principais jogadores da equipe de Abel Ferreira, Estevão, deverá ficar de fora.</p>
+                <aside>
+                    <p class="para-art"><samp>Artigo escrito por Enrico Avilla</samp></p>
+                </aside>
+            </article>
+            <article class="box-2">
+                
+                    <h2>Corinthians cai novamente para Série B do Brasileirão 2024.</h2>
+                    <h3>Série B te espera!</h3>
+                
+                
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Desenvolvido por &sum; &varkappa; &reg; &#912; &#892; &phi; Dev &dagger;</p>
+    </footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(10, 3, 3);
+    font-family: sans-serif;
+    
+}
+h1, p{
+    color: #fff;
+}

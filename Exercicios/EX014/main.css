@@ -1,0 +1,19 @@
+body{
+    background-color: lightskyblue;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+h1{
+    color: mediumblue;
+    background-color: aliceblue;
+    padding: 7px;
+}
+h2{
+    color: rgb(231, 100, 128);
+    padding: 7px;
+}
+p{
+    text-align: justify;
+    padding: 7px;
+}

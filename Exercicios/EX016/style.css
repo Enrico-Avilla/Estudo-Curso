@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* medidas absolutas
+    (cm, mm, in, pt, px, pc)
+
+    medidas relativas 
+    (em, ex, rem, vh, vw, %)
+    
+
+    font-style > font-weight > font-size > font-family
+    */
+
+}body{
+    background-image: linear-gradient(to right, #12E638,#5FE6A4, #12E6C7,#12E680, #2DE601,#12BFE6);
+}
+main{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 #074e14;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    color: #12E638;
+    text-align: center;
+    text-shadow: 1px 1px 3px #080808;
+}
+h2{
+    color: #12BFE6;
+}
+
+p{
+    text-align: justify;
+}

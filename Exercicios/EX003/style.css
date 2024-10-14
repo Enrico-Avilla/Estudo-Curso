@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: none;
+    box-sizing: none;
+
+}
+
+
+input, button{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(38, 82, 67);
+    font-size: large;
+    color: #ffffff;
+    cursor: pointer;
+
+
+}
+
+.caixa-busca{
+    margin-top: 45px;
+    margin-inline: 45px;
+}
+

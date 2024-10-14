@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links </title>
+</head>
+<style>
+
+    /*
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = children
+    
+    */
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited{
+        color: darkred;
+    }
+
+    a:hover{
+        color: lightblue;
+        text-decoration: underline;
+    }
+
+    a:active{
+        color: yellow;
+    }
+
+    .especial{
+        background-color: rgba(255, 0, 0, 0.301);
+    }
+
+    .especial::before{
+        content: '=>';
+    }
+    .especial::after{
+        content: '<=';
+    }
+
+</style>
+<body>
+    <h1>Personalizar links</h1>
+
+    <li><a href="https://github.com/Enrico-Avilla" class="especial" target="_blank">Repositório GitHub</a></li>
+    <li><a href="#">Canal do YouTube</a></li>
+    <li><a href="https://newmarketplacebr.lojaintegrada.com.br/" class="especial" target="_blank">Site da New Marketplace BR</a></li>
+</body>
+</html>

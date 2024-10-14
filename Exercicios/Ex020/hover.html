@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Hover</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div > p{
+        display: none;
+    }
+    div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+        width: 300px;
+      
+    }
+
+    div:hover{
+        color: blue;
+    }
+
+    .nav-class{
+        display: flex;
+        background-color: lightgray;
+        font-weight: bold;
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        justify-content: space-around;
+
+    }
+
+    .a-nav{
+        text-decoration: none;
+    }
+    .ul-class{
+        align-content: center; 
+        font-size: large;
+        
+    }
+    a:hover{
+        color: green;
+    }
+</style>
+<body>
+    <div>
+        <nav class="nav-class">
+            <ul class="ul-class"><a href="#" class="a-nav" >Home</a></ul>
+            <ul class="ul-class"><a href="#" class="a-nav" >Agenda</a></ul>
+            <ul class="ul-class"><a href="#" class="a-nav" >Contato</a></ul>
+            <ul class="ul-class"><a href="#" class="a-nav" >perfil</a></ul>
+        </nav>
+    </div>
+    <h1>Exemplos de hover</h1>
+    <p>Passe o mouse aqui </p>
+    <div>
+        Passe o mouse aqui
+        <p>MEU PAU NA SUA MÃO...</p>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
